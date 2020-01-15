@@ -1,0 +1,22 @@
+{
+	"name": "modulo-1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --ext js,graphql"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	},
+	"dependencies": {
+		"apollo-server": "^2.9.16",
+		"graphql": "^14.5.8",
+		"graphql-import": "^0.7.1",
+		"sucrase": "^3.12.1"
+	}
+}

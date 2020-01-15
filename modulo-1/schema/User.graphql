@@ -1,0 +1,26 @@
+# @format
+
+# Criando Type personalizados
+type User {
+	# ! indica que campo e obrigatorio
+	id: ID!
+	name: String!
+	email: String!
+	age: Int
+	salary: Float
+	vip: Boolean
+	profile: Profile
+	status: UserStatus
+}
+
+# Posibilidade de validacao de esquema em graphql
+enum UserStatus {
+	ACTIVE
+	INACTIVE
+	BLOCKED
+}
+
+type Profile {
+	id: Int
+	name: String
+}

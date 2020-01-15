@@ -1,0 +1,25 @@
+# @format
+
+# import User, Profile from 'User.graphql'
+# import Query from 'Query.graphql'
+# import Product from 'Product.graphql'
+
+# Tipo de dados suportados por graphql Int, Float, String, Boolean, ID
+# Para usar dados personalizados use o scalar
+scalar Date
+
+# Usando o fragment para consulta comumente que sao usadas para reutilizar na consultas
+# {
+#   user(id: 3) {
+#     ...userComplet
+#   }
+#   usersList {
+#     ...userComplet
+#   }
+# }
+
+# fragment userComplet on User {
+#   id name email salary vip age profile {
+#     name
+#   }
+# }

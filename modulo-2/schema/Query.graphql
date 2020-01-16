@@ -1,0 +1,8 @@
+# @format
+# Pontos de entrada da API
+type Query {
+	users: [User]!
+	user(filtre: UserFiltre!): User
+	profiles: [Profile]
+	profile(filtre: ProfileFiltre!): Profile
+}

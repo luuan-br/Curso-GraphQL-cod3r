@@ -1,0 +1,17 @@
+# @format
+
+type Profile {
+	id: Int
+	name: String!
+	label: String!
+}
+
+input ProfileFiltre {
+	id: Int
+	name: String
+}
+
+input ProfileInput {
+	name: String
+	label: String
+}

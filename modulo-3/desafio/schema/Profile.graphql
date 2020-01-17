@@ -4,6 +4,7 @@ type Profile {
 	id: Int
 	name: String!
 	label: String!
+	users: [User]
 }
 
 input ProfileFiltre {

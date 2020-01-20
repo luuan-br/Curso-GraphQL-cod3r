@@ -28,7 +28,7 @@ module.exports = {
 		return db("usuarios")
 	},
 	usuario(_, { filtro }, ctx) {
-		ctx && ctx.validarUsuarioFitro()
+		ctx && ctx.validarUsuarioFitro(filtro)
 
 		if (!filtro) return null
 		const { id, email } = filtro
